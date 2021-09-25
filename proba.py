@@ -7,6 +7,9 @@ import random
 import pandas as pd
 from tqdm import tqdm
 
+##################################################################################################
+'''
+The idea is that although online roulette is supposedly random, the odds aren't roughly 
 
 ''' FUNCTIONS '''
 #those functions will be used to fill in the probability array and make the whole code cleaner
@@ -15,6 +18,8 @@ from tqdm import tqdm
 
 
 ''' INITIALIZING PHASE '''
+
+
 
 #retrieving rolls from the file that contains them
 rolls = np.loadtxt("rolls_simpler.txt", delimiter=",", dtype=int)
